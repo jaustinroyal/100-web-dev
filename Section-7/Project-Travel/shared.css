@@ -5,20 +5,31 @@ body {
 #site-logo a {
   font-family: "Oleo Script", sans-serif;
   color: rgb(245, 243, 160);
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px black;
   padding: 8px;
   /* display: inline-block; */
 }
+
+nav ul{
+  display:flex;
+}
+
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
+ul li{
+  width: auto;
+  padding: 5px 10px;
+}
+
 li a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 16px;
 }
