@@ -1,27 +1,49 @@
-#container {
-  background-color: rgb(82, 23, 81);
-  padding: 10px;
-  width: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#hero{
+  height: 800px;
+  background-image: url(./images/destinations/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: -100px;
 }
 
-#site-logo {
-  background-color: rgb(211, 88, 209);
-  margin: 10px;
-  width: 250px;
+#hero-content{
+  position: relative;
+  top: 300px;
+  background-color: rgba(51, 47, 47, 0.8);
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  text-align: center;
+  padding: 38px 20px 50px 20px;
+  margin: 0 auto;
+  color: white;
+  text-transform: uppercase;
 }
 
-ul {
-  background-color: rgb(250, 146, 63);
-  list-style: none;
-  width: 250px;
-  margin: 10px;
-  padding: 0;
+
+#hero-content h1{
+  font-family: 'Raleway', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
-li {
-  background-color: rgb(238, 212, 192);
-  width: 100px;
+#hero-content p{
+  font-weight: 500;
+  margin-bottom: 34px; 
 }
+
+#hero-content a {
+  color: black;
+  font-weight: 500;
+  background-color: rgb(255, 241, 0);
+  padding: 12px 24px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover{
+  background-color: rgb(255, 231, 0);
+}
+
