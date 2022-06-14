@@ -1,0 +1,39 @@
+div {
+    background-color: #c7c7c7;
+    text-align: center;
+  }
+  
+  p {
+    color: black;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  #container {
+    background-color: #521751;
+  }
+  
+  #container p {
+    color: white;
+  }
+  
+  #one {
+    background-color: #943092;
+  }
+  
+  #two {
+    background-color: #c95bc7;
+  }
+  
+  #three {
+    background-color: #dd61db;
+  }
+
+  html{
+    padding:0;
+    margin:0;
+  }
+  body{
+    margin:0;
+    padding:0;
+  }

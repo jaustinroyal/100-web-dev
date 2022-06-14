@@ -2,13 +2,35 @@ body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#container {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#site-logo {
+  margin: 10px;
+  width: auto;
+}
+
 #site-logo a {
   font-family: "Oleo Script", sans-serif;
   color: rgb(245, 243, 160);
-  font-size: 18px;
-  text-decoration: none;
+  font-size: 36px;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 4px 8px black;
   padding: 8px;
   /* display: inline-block; */
 }
@@ -17,19 +39,14 @@ nav ul{
   display:flex;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 ul li{
   width: auto;
   padding: 5px 10px;
 }
 
 li a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 3px black;
 }
+
