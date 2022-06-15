@@ -9,7 +9,7 @@ ul {
   margin: 10px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -18,6 +18,9 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #site-logo {
@@ -35,18 +38,24 @@ a{
   /* display: inline-block; */
 }
 
-nav ul{
-  display:flex;
+nav ul {
+  display: flex;
 }
 
-ul li{
+ul li {
   width: auto;
   padding: 5px 10px;
 }
 
 li a {
-  color: white;
+  color: yellow;
   font-size: 22px;
   text-shadow: 1px 1px 3px black;
 }
-
+li a:hover {
+  background-color: yellow;
+  color: black;
+  border-radius: 13px;
+  text-shadow: none;
+  padding: 10.1px;
+}
