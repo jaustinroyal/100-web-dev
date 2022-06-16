@@ -1,0 +1,7 @@
+#container {
+  position: static;
+}
+main li img {
+  height: 200px;
+  width: 300px;
+}

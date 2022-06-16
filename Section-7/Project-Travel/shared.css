@@ -1,12 +1,13 @@
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
 }
 
 ul {
   list-style: none;
   padding: 0;
-  margin: 10px;
+  margin: 0px;
 }
 
 a {
@@ -42,7 +43,7 @@ nav ul {
   display: flex;
 }
 
-ul li {
+nav li {
   width: auto;
   padding: 5px 10px;
 }
@@ -60,28 +61,28 @@ nav a:hover {
   padding: 10.1px;
 }
 
-footer{
+footer {
   padding: 20px;
   width: 100%;
   background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  box-sizing: border-box;
 }
 
-footer ul{
+footer ul {
   display: flex;
-  justify-content:center;
-  margin:auto;
+  justify-content: center;
+  margin: auto;
 }
 
-footer img{
+footer img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin:auto;
+  margin: auto;
 }
 
-
-footer li{
+footer li {
   height: 80px;
   width: 80px;
-  padding:0 32px;
+  padding: 0 32px;
 }
