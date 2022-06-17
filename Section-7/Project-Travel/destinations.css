@@ -11,7 +11,7 @@ main li {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 main li img {
-  height: 200px;
+  height: auto;
   width: 300px;
   object-fit: cover;
 }
@@ -34,3 +34,5 @@ main li img {
 .actions {
   text-align: right;
 }
+
+
