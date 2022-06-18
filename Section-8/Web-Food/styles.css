@@ -79,7 +79,7 @@ justify-content: space-between;}
  .item-content a{
   display: inline-block;
   padding: 10px;
-  background: yellow;
+  background: linear-gradient(45deg, orange,rgb(207, 0, 0));
   border-radius: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
