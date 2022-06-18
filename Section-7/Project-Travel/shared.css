@@ -52,13 +52,15 @@ nav a {
   color: yellow;
   font-size: 22px;
   text-shadow: 1px 1px 3px black;
+  padding: 10px;
+
 }
 nav a:hover {
   background-color: yellow;
   color: black;
   border-radius: 13px;
   text-shadow: none;
-  padding: 10.1px;
+  padding: 10px;
 }
 
 footer {

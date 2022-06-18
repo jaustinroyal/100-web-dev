@@ -1,0 +1,90 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    color: orange;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: orange;
+  }
+
+header{
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background-color: #000;
+  margin: auto;
+}
+
+  #site-logo{
+    font-size: 27px;
+    padding: 0 40px;
+  }
+
+  nav ul{width: auto;
+  margin: auto;
+justify-content: space-between;}
+
+  nav li{
+    padding: 5px 15px;
+    font-size: 20px;
+  }
+  .flex{
+    display: flex;
+
+  }
+  main h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 20px auto 5px auto;
+  }
+  body{
+    background-color: rgb(26, 25, 25);
+  }  
+  
+  main ul{
+    justify-content: center;
+
+  }
+
+  .item-content{
+    background-color: rgba(252, 193, 203, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin: 60px;
+  }
+
+ .item-content img{
+   width: 350px;
+   height: 350px;
+   object-fit: cover;
+   
+ }
+
+ .item-content h3{
+  color: rgb(36, 35, 35);
+  font-size: 30px;
+  margin: 15px 10px;
+ }
+
+
+ .item-content a{
+  display: inline-block;
+  padding: 10px;
+  background: yellow;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  color: white;
+ }
+
+
+  
