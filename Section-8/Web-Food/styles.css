@@ -41,7 +41,7 @@ nav li {
 .menu-btn {
   width: 2rem;
   height: 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   padding: 1rem;
@@ -78,7 +78,7 @@ main ul {
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
-  margin: .8rem 1.4rem;
+  margin: 0.8rem 1.4rem;
   width: 80%;
   height: 100%;
 }
@@ -120,15 +120,18 @@ main ul {
     display: none;
   }
 
-  header h1{
+  header h1 {
     font-size: 1.5em;
   }
 
   nav {
     display: none;
   }
+  .menu-btn {
+    display: flex;
+  }
 
-  .item-content{
+  .item-content {
     width: 90%;
     height: 90%;
   }
