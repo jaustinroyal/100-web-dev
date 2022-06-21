@@ -42,6 +42,7 @@ nav li {
 main h1 {
   text-align: center;
   font-size: 2rem;
+  margin: 1rem 1rem;
 }
 body {
   background-color: rgb(26, 25, 25);
@@ -52,15 +53,17 @@ main ul {
   grid-template-columns: auto auto;
   width: 80%;
   margin: auto;
+  justify-content: center;
 }
 
 .item-content {
-  background-color: rgba(252, 193, 203, 0.7);
+  background-color: pink;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
-  margin: 0.8rem 1.4rem;
-  
+  margin: .8rem 1.4rem;
+  width: 90%;
+  height: 100%;  
 }
 
 .item-content img {
@@ -75,13 +78,14 @@ main ul {
   margin: 1rem 0.6rem;
 }
 
+
 .item-content a {
   display: inline-block;
   padding: 0.8rem;
   background: linear-gradient(45deg, orange, rgb(207, 0, 0));
   border-radius: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 0.8rem;
+  /* margin-bottom: 0.8rem; */
   color: white;
 }
 
@@ -93,9 +97,14 @@ main ul {
   main ul {
     grid-template-columns: auto;
   }
+
+  .item-content{
+    width: 90%;
+    height: 20rem;
+  }
 }
 @media (min-width: 1000px) {
   main ul {
-    width: 60%;
+    width: 70%;
   }
 }
