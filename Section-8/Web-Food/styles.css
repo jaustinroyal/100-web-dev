@@ -89,6 +89,7 @@ nav li {
 }
 
 #side-drawer header{
+  background-color: rgb(25, 25, 25);
   display:flex;
   justify-content: end;
   position: fixed;
@@ -125,7 +126,6 @@ main ul {
   overflow: hidden;
   text-align: center;
   margin: 0.8rem 1.4rem;
-  width: 80%;
   height: 100%;
 }
 
@@ -186,7 +186,13 @@ main ul {
 
 }
 @media (min-width: 64em) {
+  main h1{
+    font-size: 3rem;
+    margin: 2rem auto;
+  }
+
   .item-content {
     width: 90%;
+    height: 80%;
   }
 }
