@@ -41,10 +41,12 @@ input:focus {
 }
 
 button {
+    width: 100%;
+    text-align: center;
   display: block;
   border-radius: 4px;
   height: 2.3rem;
-  margin: 2rem 0 0 0;
+  margin: 1.3rem 0 0 0;
   font: inherit;
   background-color: rgb(42, 3, 87);
   color: white;
@@ -55,15 +57,22 @@ button {
 button:hover {
   background-color: rgb(59, 12, 117);
 }
+
+hr{
+    margin: 1.5rem 0 0 0;
+}
+
 center h5 {
   font-size: 1.8rem;
-  margin: 1rem 0;
+  margin: 1rem 0 .7rem 0;
 }
 #radio-btns label {
-  text-align: center;
+    padding:  0 .5rem ;
+    margin: auto 0;
 }
 
 #radio-btns input {
+  margin: 0;
   width: auto;
 }
 .radio-flex {

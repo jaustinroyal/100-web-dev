@@ -11,43 +11,59 @@
     />
     <title>Forms</title>
   </head>
+
   <body>
+
     <center>
+
       <form action="./index.html" method="GET">
+
         <h2>Form</h2>
+
         <label for="user-name">Your Name</label>
-        <input id="user-name" type="text" name="user-name" />
+        <input required="true" id="user-name" type="text" name="user-name" />
 
         <label for="user-email">Your Email </label>
-        <input id="user-email" type="email" name="user-email" />
+        <input required="true" id="user-email" type="email" name="user-email" />
 
         <label for="user-age">Your Age</label>
-        <input id="user-age" type="number" name="user-age" />
+        <input required="true" id="user-age" type="number" name="user-age" />
 
         <label for="user-pass">Your Password</label>
-        <input id="user-pass" type="password" name="user-pass" />
+        <input required="true" id="user-pass" type="password" name="user-pass" />
 
-        <label for="user-bd">Your Birthdate !!</label>
-        <input id="user-bd" type="date" name="user-bd" />
+        <label for="user-bd">Your Birthdate</label>
+        <input required="true" id="user-bd" type="date" name="user-bd" />
 
-        <h5>How do you want to verify ?</h5>
+        <hr />
+
         <div id="radio-btns">
+
+          <h5>How do you want to verify ?</h5>
+
           <div class="radio-flex">
             <label for="v-t-m">Via Text Message (SMS)</label>
-            <input type="radio" id="v-t-m" value="verify-sms" name="verify" />
-          </div >
-          <div class="radio-flex" >
-            <label for="v-p-c">Via Phone Call </label>
-            <input type="radio" id="v-p-c" value="verify-phone" name="verify" />
+            <input type="radio" checked="true" id="v-t-m" value="sms" name="verify" />
           </div>
+
+          <div class="radio-flex">
+            <label for="v-p-c">Via Phone Call </label>
+            <input type="radio" id="v-p-c" value="phone" name="verify" />
+          </div>
+
           <div class="radio-flex">
             <label for="v-e-a">Via Email Address </label>
-            <input type="radio" id="v-e-a" value="verify-email" name="verify" />
+            <input type="radio" id="v-e-a" value="email" name="verify" />
           </div>
+
         </div>
 
         <button>Submit</button>
+
       </form>
+
     </center>
+
   </body>
+
 </html>
