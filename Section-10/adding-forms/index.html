@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <center>
+      <form action="./index.html" method="GET">
+        <h2>Form</h2>
+        <label for="user-name">Your Name</label>
+        <input id="user-name" type="text" name="user-name" />
+
+        <label for="user-email">Your Email </label>
+        <input id="user-email" type="email" name="user-email" />
+
+        <label for="user-age">Your Age</label>
+        <input id="user-age" type="number" name="user-age" />
+
+        <label for="user-pass">Your Password</label>
+        <input id="user-pass" type="password" name="user-pass" />
+
+        <label for="user-bd">Your Birthdate !!</label>
+        <input id="user-bd" type="date" name="user-bd" />
+
+        <h5>How do you want to verify ?</h5>
+        <div id="radio-btns">
+          <div class="radio-flex">
+            <label for="v-t-m">Via Text Message (SMS)</label>
+            <input type="radio" id="v-t-m" value="verify-sms" name="verify" />
+          </div >
+          <div class="radio-flex" >
+            <label for="v-p-c">Via Phone Call </label>
+            <input type="radio" id="v-p-c" value="verify-phone" name="verify" />
+          </div>
+          <div class="radio-flex">
+            <label for="v-e-a">Via Email Address </label>
+            <input type="radio" id="v-e-a" value="verify-email" name="verify" />
+          </div>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(31, 30, 30);
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+form {
+  margin: 10rem auto;
+  width: 30rem;
+  background-color: white;
+  box-shadow: 2px 4px 8px black;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: start;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+input {
+  margin: 0.6rem 0 1rem 0;
+  width: 100%;
+  display: block;
+  height: 2rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(184, 184, 184);
+  color: rgb(68, 68, 68);
+  border-radius: 6px;
+}
+
+input:focus {
+  background-color: rgb(219, 190, 253);
+  color: rgb(42, 3, 87);
+  font-weight: bold;
+  border-color: rgb(42, 3, 87);
+}
+
+button {
+  display: block;
+  border-radius: 4px;
+  height: 2.3rem;
+  margin: 2rem 0 0 0;
+  font: inherit;
+  background-color: rgb(42, 3, 87);
+  color: white;
+  border: 1 px solid rgb(42, 3, 87);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(59, 12, 117);
+}
+center h5 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+#radio-btns label {
+  text-align: center;
+}
+
+#radio-btns input {
+  width: auto;
+}
+.radio-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
