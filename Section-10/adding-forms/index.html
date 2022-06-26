@@ -9,61 +9,163 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Forms</title>
+    <title>Form</title>
   </head>
 
   <body>
 
-    <center>
+    <header>
+      <h1> Input Forms </h1>
+    </header>
 
-      <form action="./index.html" method="GET">
+    <main>
+      <center>
+        <form action="./index.html" method="GET">
+          <h2 >Personal Details</h2>
 
-        <h2>Form</h2>
+          <section>
+            <ul>
+              <li>
+                <label for="user-name">Your Name</label>
+                <input
+                  required="true"
+                  id="user-name"
+                  type="text"
+                  name="user-name"
+                />
+              </li>
 
-        <label for="user-name">Your Name</label>
-        <input required="true" id="user-name" type="text" name="user-name" />
+              <li>
+                <label for="gender-select">Gender</label>
+                <select name="gender" id="gender-select">
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+              </li>
 
-        <label for="user-email">Your Email </label>
-        <input required="true" id="user-email" type="email" name="user-email" />
+              <li>
+                <label for="user-email">Your Email </label>
+                <input
+                  required="true"
+                  id="user-email"
+                  type="email"
+                  name="user-email"
+                />
+              </li>
 
-        <label for="user-age">Your Age</label>
-        <input required="true" id="user-age" type="number" name="user-age" />
+              <li>
+                <label for="user-age">Your Age</label>
+                <input
+                min="18"
+                max="100"
+                  required="true"
+                  id="user-age"
+                  type="number"
+                  name="user-age"
+                />
+              </li>
 
-        <label for="user-pass">Your Password</label>
-        <input required="true" id="user-pass" type="password" name="user-pass" />
+              <li>
+                <label for="user-pass">Your Password</label>
+                <input
+                  required="true"
+                  id="user-pass"
+                  type="password"
+                  name="user-pass"
+                />
+              </li>
 
-        <label for="user-bd">Your Birthdate</label>
-        <input required="true" id="user-bd" type="date" name="user-bd" />
+              <li>
+                <label for="user-bd">Your Birthdate</label>
+                <input
+                  style="text-align: center;"
+                  required="true"
+                  id="user-bd"
+                  type="date"
+                  name="user-bd"
+                />
+              </li>
+            </ul>
+          </section>
 
-        <hr />
+          <hr />
 
-        <div id="radio-btns">
+          <section>
+            <ul class="input-container">
+              <h2>How should we verify you?</h2>
 
-          <h5>How do you want to verify ?</h5>
+              <li class="input-flex">
+                <input
+                  type="radio"
+                  checked="true"
+                  id="v-t-m"
+                  value="sms"
+                  name="verify"
+                />
+                <label for="v-t-m">Via Text Message (SMS)</label>
+              </li>
 
-          <div class="radio-flex">
-            <label for="v-t-m">Via Text Message (SMS)</label>
-            <input type="radio" checked="true" id="v-t-m" value="sms" name="verify" />
-          </div>
+              <li class="input-flex">
+                <input type="radio" id="v-p-c" value="phone" name="verify" />
+                <label for="v-p-c">Via Phone Call </label>
+              </li>
 
-          <div class="radio-flex">
-            <label for="v-p-c">Via Phone Call </label>
-            <input type="radio" id="v-p-c" value="phone" name="verify" />
-          </div>
+              <li class="input-flex">
+                <input type="radio" id="v-e-a" value="email" name="verify" />
+                <label for="v-e-a">Via Email Address </label>
+              </li>
+            </ul>
+          </section>
 
-          <div class="radio-flex">
-            <label for="v-e-a">Via Email Address </label>
-            <input type="radio" id="v-e-a" value="email" name="verify" />
-          </div>
+          <hr>
 
-        </div>
+          <section>
+            <ul class="input-container">
+              <h2>How should we contact you?</h2>
+              <li class="input-flex">
+                <input
+                  type="checkbox"
+                  id="contact-phone"
+                  name="contact"
+                  value="phone"
+                />
+                <label for="contact-phone">Contact via Phone</label>
+              </li>
 
-        <button>Submit</button>
+              <li class="input-flex">
+                <input
+                  type="checkbox"
+                  id="contact-email"
+                  name="contact"
+                  value="email"
+                />
+                <label for="contact-email">Contact via Email</label>
+              </li>
+            </ul>
+          </section>
 
-      </form>
+          <hr />
 
-    </center>
+          <section>
+            <label for="feedback-textarea">Feedback Message</label>
+            <textarea name="feedback" id="feedback-textarea"></textarea>
 
+            <div class="input-container">
+              <div class="input-flex">
+                <input
+                  required="true"
+                  type="checkbox"
+                  id="agree-terms"
+                  name="agree-terms"
+                />
+                <label for="agree-terms">Agree to <a href="" style="text-decoration: none;">Terms And Conditions</a>?</label>
+              </div>
+            </div>
+          </section>
+
+          <button>Submit</button>
+        </form>
+      </center>
+    </main>
   </body>
-
 </html>

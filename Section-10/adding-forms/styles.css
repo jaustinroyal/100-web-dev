@@ -4,8 +4,13 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+h1{
+  color: white;
+  margin-top: 4rem;
+}
+
 form {
-  margin: 10rem auto;
+  margin: 3rem auto;
   width: 30rem;
   background-color: white;
   box-shadow: 2px 4px 8px black;
@@ -14,14 +19,25 @@ form {
   text-align: start;
 }
 
-h2 {
-  font-family: "Roboto", sans-serif;
-  margin: 0 0 0 0;
-  text-transform: uppercase;
-  text-align: center;
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
 }
 
-input {
+li{
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  margin: 1rem 0;
+}
+
+
+
+input, textarea, select {
   margin: 0.6rem 0 1rem 0;
   width: 100%;
   display: block;
@@ -33,7 +49,15 @@ input {
   border-radius: 6px;
 }
 
-input:focus {
+select{
+  text-align: center;
+}
+
+textarea{
+  height: 4rem;
+}
+
+input:focus, textarea:focus, select:focus {
   background-color: rgb(219, 190, 253);
   color: rgb(42, 3, 87);
   font-weight: bold;
@@ -58,25 +82,22 @@ button:hover {
   background-color: rgb(59, 12, 117);
 }
 
-hr{
-    margin: 1.5rem 0 0 0;
+.input-container h2 {
+  margin: .5rem 0 .4rem 0;
 }
 
-center h5 {
-  font-size: 1.8rem;
-  margin: 1rem 0 .7rem 0;
-}
-#radio-btns label {
+.input-container label {
     padding:  0 .5rem ;
     margin: auto 0;
 }
 
-#radio-btns input {
+.input-container input {
   margin: 0;
   width: auto;
 }
-.radio-flex {
+
+.input-flex {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: start;
+    justify-content: start;
 }
+
