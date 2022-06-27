@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="./index.html" method="post">
+        <section>
+          <h2>How can we help you?</h2>
+          <label for="name"> Your Name </label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="number">Your Phone number</label>
+          <input type="tel" id="number" name="number" />
+
+          <label for="feedback">Your feedback</label>
+          <textarea name="feedback" id="feedback" cols="30" rows="8"></textarea>
+
+          <label for="us">How did you find us ?</label>
+          <select name="us" id="us">
+            <option value="youtube">Youtube</option>
+            <option value="google">Google</option>
+            <option value="ads">Ads</option>
+          </select>
+        </section>
+
+        <div>
+          <h2>How should we reply?</h2>
+          <ul>
+            <li>
+              <label for="call">Call me </label>
+              <input type="radio" name="reply" id="call" value="call" />
+            </li>
+            <li>
+              <label for="call">Send me an email</label>
+              <input type="radio" name="reply" id="mail" value="mail" />
+            </li>
+            <li>
+              <label for="call">Don't reply</label>
+              <input type="radio" name="reply" id="noreply" value="noreply" />
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div id="tc-b">
+          <label for="tc"> Agree to Terms and Conditions</label>
+          <input required type="checkbox" name="tc" id="tc" />
+        </div>
+        <div id="button-con">
+          <button type="reset" id="clr-btn">Clear</button>
+          <button id="sub-btn">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
