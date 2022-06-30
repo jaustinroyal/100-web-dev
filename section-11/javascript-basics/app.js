@@ -7,18 +7,34 @@ let job = {
   salary: "Infinite",
 };
 
-let haveBeenAdultFor = age - 18;
+let person = {
+  name: "Ryan",
+  age: 14,
+  greet() {
+    console.log("Ryan says Hello! :D");
+  },
+  greetMe(myName) {
+    console.log("Ryan says Hello to " + myName + " :)");
+  },
+};
 
-function calcAdultYears(userAge) {
-  return userAge - 18;
-}
+person.greet();
 
-age = 16;
-alert(calcAdultYears(1884));
+userName = prompt("Please Enter your name");
+person.greetMe(userName);
 
-age = 20;
-haveBeenAdultFor = calcAdultYears(24);
-alert(haveBeenAdultFor);
+// let haveBeenAdultFor = age - 18;
+//
+// function calcAdultYears(userAge) {
+//   return userAge - 18;
+// }
+//
+// age = 16;
+// alert(calcAdultYears(1884));
+//
+// age = 20;
+// haveBeenAdultFor = calcAdultYears(24);
+// alert(haveBeenAdultFor);
 
 //   function calcAdultYears(userAge) {
 //     return (age - 18);
