@@ -44,8 +44,7 @@
 
 // Removing Element
 {
-  // let userInput = prompt("Press enter to delete H1 text 'Hi There!'");
-
+  // let userI nput = prompt("Press enter to delete H1 text 'Hi There!'");
   // if (userInput == "") {
   //   let textH1 = document.querySelector("#textH1");
   //   textH1.remove();
@@ -53,3 +52,14 @@
   //   // textH1.parentElement.removeChild(textH1);
   // }
 }
+
+//moving elemens
+
+let firstParagraph = document.querySelector("body p");
+// firstParagraph.parentElement.append(firstParagraph);
+
+// innerHTML
+
+console.log(firstParagraph.innerHTML);
+
+firstParagraph.innerHTML = "I don't know what <strong> I am doing</strong> ";
