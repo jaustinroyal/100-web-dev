@@ -1,0 +1,54 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(90deg, rgb(40, 40, 40), rgb(47, 47, 47));
+}
+
+main {
+  margin: 20% auto;
+  padding: 2rem;
+  width:60%;
+  background-color: rgba(243, 239, 239, 0.973);
+  border-radius: 15px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.inputCntn {
+  display: flex;
+  margin: 0.2rem 0 0.5rem 0;
+  align-items: baseline;
+}
+
+input {
+  border: 1px solid rgb(133, 129, 129);
+  border-radius: 6px;
+  width: 80%;
+  font: inherit;
+  height: 2rem;
+  margin: 0 0.5rem 0 0;
+}
+
+input:focus-visible{
+    border: 2px solid rgb(122, 118, 118);
+    outline: none;
+    background-color: rgb(245, 245, 245);
+}
+
+span {
+  color: red;
+}
+
+button {
+  border: none;
+  font: inherit;
+  background-color: rgb(235, 176, 29);
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 6px;
+  width: 5rem;
+}
+button:hover {
+    background-color: goldenrod;
+}
